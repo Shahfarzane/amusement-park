@@ -1,0 +1,52 @@
+.place {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.placeImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.placeName {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.infoBox {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    transform: translate(-50%, -100%);
+    top: 0;
+    left: 50%;
+    color: var(--dark);
+}
+
+
+
+.placeImage {
+    transition: all 0.3s ease;
+}
+
+.infoBox {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: max-content;
+}
+
+.svgCloud {
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

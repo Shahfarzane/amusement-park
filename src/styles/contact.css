@@ -1,0 +1,163 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 18px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 14px rgba(255, 255, 255, 0.2) !important;
+    transition: 0.2s box-shadow;
+    border: 1px solid hsla(0, 0%, 51.4%, 0.16);
+    background-color: #1d1d1f;
+    transition: 0.2s background-color,
+        0.2s border;
+}
+
+.text-transition {
+    color: white;
+    transition: 0.2s color;
+}
+
+
+
+.field {
+    outline: none;
+    border-radius: 3px;
+    padding: 10px 14px;
+    width: 100%;
+    letter-spacing: -0.025em;
+    font-size: 14px;
+    transition: 0.2s border;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 2px solid hsla(0, 0%, 51.4%, 0.16);
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.2s background-color,
+        0.2s border,
+        0.2s color;
+}
+
+.field:focus {
+    border: 2px solid var(--primary-hover);
+}
+
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.contact-container {
+    width: 100vw;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact-container #contact {
+    position: absolute;
+    top: 26px;
+    color: white;
+    transition: 0.2s color,
+        0.2s font-size;
+}
+
+.data {
+    margin-top: 44px;
+    display: flex;
+    gap: 22px;
+}
+
+
+
+.room-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 22px 24px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+    gap: 10px;
+    border: 1px solid hsla(0, 0%, 51.4%, 0.16);
+    background-color: #1d1d1f;
+    transition: 0.2s background-color,
+        0.2s border;
+    box-shadow: 0px 3px 14px rgba(255, 255, 255, 0.2) !important;
+    transition: 0.2s box-shadow;
+
+}
+
+textarea {
+    width: 440px;
+    min-width: 440px;
+    max-width: 440px;
+    max-height: 225px;
+    min-height: 225px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 2px solid hsla(0, 0%, 51.4%, 0.16);
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.2s background-color,
+        0.2s border,
+        0.2s colo
+}
+
+
+.room-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 50px;
+    max-height: 54px;
+    min-width: 100%;
+    padding: 0 24px;
+    border: 2px solid var(--dark);
+    background-color: var(--primary);
+    z-index: 2;
+    transform: translateZ(.01);
+    transition: background-color .22s;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+.ctaButton:hover {
+    background-color: var(--primary-hover);
+}
+
+
+
+
+
+
+.room.active {
+    background-color: green;
+    border: 2px solid darkgreen;
+    color: white;
+}
+
+.room1:hover {
+    background: rgb(89, 154, 193);
+    background: linear-gradient(315deg, rgba(89, 154, 193, 1) 0%, rgba(19, 118, 179, 1) 100%);
+}
+
+.room2:hover {
+    background: rgb(197, 155, 251);
+    background: linear-gradient(315deg, rgba(197, 155, 251, 1) 0%, rgba(112, 83, 148, 1) 100%);
+}
+
+.room3:hover {
+    background: rgb(50, 110, 254);
+    background: linear-gradient(315deg, rgba(50, 110, 254, 1) 0%, rgba(1, 170, 238, 1) 100%);
+}

@@ -1,0 +1,117 @@
+.eventsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.eventName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.eventDate {
+    font-size: 14px;
+    color: var(--light)
+}
+
+.eventItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.date {
+    font-weight: bold;
+    color: var(--light)
+}
+
+.buyButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 50px;
+    max-height: 54px;
+    min-width: 100%;
+    padding: 0 24px;
+    border: 2px solid var(--dark);
+    background-color: #ffeb60;
+    z-index: 2;
+    transform: translateZ(.01);
+    transition: background-color .22s;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.buyButton:hover {
+    background-color: var(--primary-hover);
+}
+
+.successMessage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.successIcon {
+    margin-right: 5px;
+    fill: #28a745;
+}
+
+.boughtButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 50px;
+    max-height: 54px;
+    min-width: 100%;
+    padding: 0 24px;
+    border: 2px solid var(--dark);
+    background-color: #28a745;
+    z-index: 2;
+    transform: translateZ(.01);
+    transition: background-color .22s;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f3f3f3;
+}
+
+.loading {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        border-top-color: #3498db;
+    }
+
+    25% {
+        border-top-color: #e74c3c;
+    }
+
+    50% {
+        border-top-color: #2ecc71;
+    }
+
+    75% {
+        border-top-color: #f1c40f;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        border-top-color: #9b59b6;
+    }
+}

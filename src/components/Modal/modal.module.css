@@ -1,0 +1,49 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2345;
+}
+
+.modal {
+    background: #16171D;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+}
+
+.closeButton {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ClosebtnContainer {
+    width: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .modal {
+        width: 100%;
+        max-width: none;
+        margin: 10px;
+    }
+
+    .closeButton {
+        right: 10px;
+        top: 10px;
+    }
+}

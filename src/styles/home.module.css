@@ -1,0 +1,94 @@
+.homeContainer {
+    height: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-end;
+    height: 780px;
+    flex-direction: column;
+    background-image: url('/images/Hero-Gallery.png'), radial-gradient(70.71% 70.71% at 50% 50%, rgba(0, 0, 0, 0.19) 57.08%, rgba(0, 0, 0, 0.28) 100%);
+    background-size: cover, auto;
+    background-position: center, center;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+
+
+
+
+}
+
+.heading {
+    font-size: 2rem;
+    max-width: 600px;
+    letter-spacing: -0.045em;
+    line-height: 1.1;
+    font-weight: 600;
+    align-items: start;
+    transition: 0.2s color;
+    margin-bottom: 1rem;
+    color: #F4F1D0;
+
+}
+
+
+.textTransition {
+    color: white;
+    transition: 0.2s color;
+}
+
+.heroText {
+    margin-top: auto;
+    color: var(-light);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 50%;
+    text-align: left;
+}
+
+
+
+.cardSubheading {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--light);
+    transition: 0.2s color;
+
+}
+
+.heroBox {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+
+.gridItem {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    box-sizing: border-box;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

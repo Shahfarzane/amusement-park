@@ -1,0 +1,82 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.button {
+
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  z-index: 1001;
+  transition: width 0.3s, height 0.3s;
+}
+
+
+
+
+
+
+
+.closeButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.button svg {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.button svg line {
+  transition: stroke 0.5s;
+}
+
+.button .background {
+  background-color: var(--primary);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  height: 0;
+  transition: height 0.3s;
+}
+
+.button:hover p {
+  color: black;
+}
+
+.button:hover svg line {
+  stroke: black;
+}
+
+.button:hover .background {
+  height: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .button {
+    width: 120px;
+    height: 120px;
+  }
+
+  .button p {
+    display: block;
+  }
+}

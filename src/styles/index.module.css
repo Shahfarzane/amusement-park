@@ -1,0 +1,28 @@
+.star {
+
+    fill: white;
+    animation: shine 1.5s infinite alternate;
+}
+
+.star.delay-1 {
+    animation-delay: 0.5s;
+}
+
+.star.delay-2 {
+    animation-delay: 1s;
+}
+
+
+@keyframes shine {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}

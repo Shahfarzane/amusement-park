@@ -1,0 +1,56 @@
+.menuContent {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contentContainer {
+    margin-top: 3rem;
+
+}
+
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
+
+.textBold {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.address {
+    margin-top: 50px;
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 50px;
+    flex-direction: column;
+}
