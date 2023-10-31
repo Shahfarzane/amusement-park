@@ -1,120 +1,65 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
 }
-
-
-
-.imageContainer {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: fadeInUp 1s ease-in-out forwards;
-}
-
-
 
 .formContainer {
-    width: 300px;
-    margin-top: 20px;
+  width: 300px;
+  margin-top: 20px;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-
-/* btn.module.css */
 .buttonContainer {
-    position: relative;
-    margin-left: -5px;
-    margin-bottom: 25px;
-    max-width: 120px;
-    z-index: 1;
+  position: relative;
+  margin-left: -5px;
+  margin-bottom: 25px;
+  max-width: 120px;
+  z-index: 1;
 }
 
 .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    min-height: 50px;
-    max-height: 54px;
-    min-width: 100%;
-    padding: 0 24px;
-    border: 2px solid var(--dark);
-    background-color: var(--primary);
-    z-index: 2;
-    transition: all 0.3s ease-in-out;
-    font-size: 1.1rem;
-    font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 50px;
+  max-height: 54px;
+  min-width: 100%;
+  padding: 0 24px;
+  border: 2px solid var(--dark);
+  background-color: var(--primary);
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
-
-
-
-
 .buttonShadow {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 100%;
-    height: 100%;
-    background-color: var(--primary);
-    border: 2px solid var(--dark);
-    z-index: 1;
-    transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+  border: 2px solid var(--dark);
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 .imageLoaded {
-    z-index: 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.buttonContainer:hover .button,
-.buttonContainer:hover .buttonShadow {
-    transform: scaleX(1.3);
-}
-
-@media only screen and (max-width: 599px) {
-    .buttonContainer {
-        margin-left: 0;
-        margin-bottom: 15px;
-        max-width: 100%;
-    }
-
-    .button {
-        padding: 0 16px;
-    }
+  z-index: 1;
 }

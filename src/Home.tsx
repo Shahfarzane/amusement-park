@@ -7,7 +7,11 @@ import Ticket from "./components/Ticket";
 export const Home = () => {
   const standardTicket = {
     title: "Standard Ticket",
-    amenities: ["General Admission", "Access to all public areas", "Free Wi-Fi"]
+    amenities: [
+      "General Admission",
+      "Access to all public areas",
+      "Free Wi-Fi",
+    ],
   };
 
   const premiumTicket = {
@@ -17,8 +21,8 @@ export const Home = () => {
       "Fast Track Entry",
       "Access to Premium Lounge",
       "Complimentary Snacks and Drinks",
-      "Exclusive Merchandise Discount"
-    ]
+      "Exclusive Merchandise Discount",
+    ],
   };
 
   const vipTicket = {
@@ -29,8 +33,8 @@ export const Home = () => {
       "Backstage Access",
       "Reserved Seating",
       "VIP Parking",
-      "Gourmet Dining Options"
-    ]
+      "Gourmet Dining Options",
+    ],
   };
   return (
     <>
@@ -45,6 +49,7 @@ export const Home = () => {
       </div>
 
       <About />
+
       <div className={styles.grid}>
         <div className={styles.gridItem}>
           <motion.h2

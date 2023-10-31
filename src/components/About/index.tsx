@@ -7,14 +7,14 @@ export default function About() {
     <div className={styles.containerAbout}>
       <div id={styles.about} />
 
-      <motion.h1
+      <motion.h2
         className={styles.heading}
         initial={{ opacity: 0, y: 150 }}
         viewport={{ once: true }}
         whileInView={{ opacity: 1, y: 0 }}
       >
         EXPERIENCE THE ADRENALINE LIKE NEVER BEFORE!
-      </motion.h1>
+      </motion.h2>
 
       <motion.p
         className={styles.subHeading}

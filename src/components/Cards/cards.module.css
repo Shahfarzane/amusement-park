@@ -1,122 +1,124 @@
 .cardsContainer {
-    margin-top: 5rem;
-    display: flex;
-    gap: 28px;
-    position: relative;
+  margin-top: 5rem;
+  display: flex;
+  gap: 28px;
+  position: relative;
+  max-width: 1376px;
 }
 
 .cardLarge {
-    border-radius: 8px;
-    padding: 61px 56px 58px 60px;
-    border: 1px solid transparent;
-    background-color: var(--cards);
-    transition: 0.2s background-color,
-        0.2s border;
+  border-radius: 8px;
+  padding: 50px 60px;
+  border: 1px solid transparent;
+  background-color: var(--cards);
+  transition: 0.2s background-color, 0.2s border;
 }
 
 .cardHeading {
-    max-width: 550px;
-    letter-spacing: -0.02em;
-    font-size: 32px;
-    font-weight: 600;
-    color: var(--text-color);
-    transition: 0.2s color;
+  max-width: 550px;
+  letter-spacing: -0.02em;
+  font-size: 32px;
+  font-weight: 600;
+  transition: 0.2s color;
 }
 
 .cardSubheading {
-    font-size: 18px;
-    font-weight: 500;
-    max-width: 200px;
-    color: var(--text-color);
-    transition: 0.2s color;
-
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 200px;
+  color: var(--text-color);
+  transition: 0.2s color;
 }
-
 
 .textTransition {
-    color: white;
-    transition: 0.2s color;
+  color: white;
+  transition: 0.2s color;
 }
 
-
 .cardLargeText {
-    max-width: 560px;
-    font-size: 1.3rem;
-    line-height: 1.5;
-    letter-spacing: -0.025em;
-    font-weight: 500;
-    margin-top: 25px;
-    color: white;
-    transition: 0.2s color;
-
+  max-width: 560px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: -0.025em;
+  font-weight: 500;
+  margin-top: 25px;
+  color: white;
+  transition: 0.2s color;
 }
 
 .smallCardsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 678px;
-    gap: 18px;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 678px;
+  gap: 18px;
 }
 
 .cardSmall {
-    border-radius: 8px;
-    height: 210px;
-    width: 328px;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border: 1px solid transparent;
-    background-color: var(--cards);
-    transition: 0.2s background-color,
-        0.2s border;
+  border-radius: 8px;
+  height: 210px;
+  width: 300px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid transparent;
+  background-color: var(--cards);
+  transition: 0.2s background-color, 0.2s border;
 }
-
-
 
 .texContainer {
-    display: flex;
+  display: flex;
 }
-
-
 
 .colorGreen {
-    background: linear-gradient(45deg, rgba(48, 168, 188, 1) 0%, rgba(77, 218, 104, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    45deg,
+    rgba(48, 168, 188, 1) 0%,
+    rgba(77, 218, 104, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 .colorPurple {
-    background: linear-gradient(45deg, rgba(81, 56, 236, 1) 0%, rgba(181, 97, 249, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    45deg,
+    rgba(81, 56, 236, 1) 0%,
+    rgba(181, 97, 249, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
-
-
 .signColor {
-    background: linear-gradient(45deg, rgba(81, 56, 236, 1) 0%, rgba(181, 97, 249, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-
+  background: linear-gradient(
+    45deg,
+    rgba(81, 56, 236, 1) 0%,
+    rgba(181, 97, 249, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .colorPink {
-    background: linear-gradient(315deg, rgba(189, 48, 149, 1) 0%, rgba(200, 68, 145, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+  background: linear-gradient(
+    315deg,
+    rgba(189, 48, 149, 1) 0%,
+    rgba(200, 68, 145, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
 .colorBlue {
-    background: linear-gradient(315deg, rgba(24, 96, 196, 1) 0%, rgba(88, 208, 217, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+  background: linear-gradient(
+    315deg,
+    rgba(24, 96, 196, 1) 0%,
+    rgba(88, 208, 217, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
