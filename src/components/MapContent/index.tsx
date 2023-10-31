@@ -80,7 +80,7 @@ const MapContent = () => {
 
       <Location
         name="Ice cream shop"
-        x={`${1000 + 4 * spacing}px`}
+        x={`${400 + 4 * spacing}px`}
         y="200px"
         imageSrc={ice}
         info="Ice Cream shop here !!"
