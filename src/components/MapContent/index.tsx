@@ -34,8 +34,8 @@ const MapContent = () => {
       />
       <Location
         name="Roller Coaster"
-        x={`${startingX}px`}
-        y="400px"
+        x={`${startingX}px `}
+        y="210px"
         imageSrc={castle}
         info="This is a roller coaster."
       />
@@ -50,29 +50,30 @@ const MapContent = () => {
       <Location
         name="Ferris Wheel"
         x={`${startingX + 3 * spacing}px`}
-        y="450px"
+        y="250px"
         imageSrc={wheel}
         info="Enjoy the view from the top!"
-      />
-      <Location
-        name="WC"
-        x={`${startingX + 2 * spacing}px`}
-        y="550px"
-        imageSrc={wc}
-        info="Restrooms available here."
-      />
-      <Location
-        name="Beach"
-        x={`${startingX + 4 * spacing}px`}
-        y="120px"
-        imageSrc={beach}
-        info="Strike out some fun!"
       />
 
       <Location
         name="Beach"
         x={`${startingX + 4 * spacing}px`}
-        y="520px"
+        y="150px"
+        imageSrc={beach}
+        info="Strike out some fun!"
+      />
+      <Location
+        name="WC"
+        x={`${startingX + 2 * spacing}px`}
+        y="150px"
+        imageSrc={wc}
+        info="Restrooms available here."
+      />
+
+      <Location
+        name="Beach"
+        x={`${700 + 4 * spacing}px`}
+        y="150px"
         imageSrc={beach}
         info="Strike out some fun!"
       />
@@ -80,7 +81,7 @@ const MapContent = () => {
       <Location
         name="Ice cream shop"
         x={`${1000 + 4 * spacing}px`}
-        y="420px"
+        y="200px"
         imageSrc={ice}
         info="Ice Cream shop here !!"
       />
