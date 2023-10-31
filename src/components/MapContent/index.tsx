@@ -11,8 +11,8 @@ import wheel from "/images/map/wheel.svg";
 import beach from "/images/map/beach.svg";
 
 const MapContent = () => {
-  const startingX = 500;
-  const spacing = 200;
+  const startingX = window.innerWidth / 10;
+  const spacing = window.innerWidth / 15;
 
   return (
     <main className={styles.main}>

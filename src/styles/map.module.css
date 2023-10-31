@@ -103,3 +103,15 @@
   background-position: bottom;
   z-index: 1;
 }
+
+@media only screen and (max-width: 1200px) {
+  .tree {
+    width: 150px;
+    height: 270px;
+  }
+
+  .moon {
+    width: 10rem;
+    height: 9rem;
+  }
+}
