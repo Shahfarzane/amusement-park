@@ -32,7 +32,7 @@ const ContactForm = () => {
             viewport={{ once: true }}
             transition={{
               opacity: { duration: 0.3, delay: 0.3 },
-              x: { duration: 0.8, type: "tween", delay: 0.25 }
+              x: { duration: 0.8, type: "tween", delay: 0.25 },
             }}
           >
             <form className="form-container">
@@ -59,7 +59,7 @@ const ContactForm = () => {
             viewport={{ once: true }}
             transition={{
               opacity: { duration: 0.3, delay: 0.3 },
-              x: { duration: 0.8, type: "spring", delay: 0.25 }
+              x: { duration: 0.8, type: "spring", delay: 0.25 },
             }}
           >
             <button
