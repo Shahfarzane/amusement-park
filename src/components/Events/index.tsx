@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./Events.module.css";
+import styles from "./events.module.css";
 import { motion } from "framer-motion";
 
 type Event = {
