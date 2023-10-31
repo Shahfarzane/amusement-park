@@ -103,7 +103,3 @@
   background-position: bottom;
   z-index: 1;
 }
-
-p {
-  color: var(--dark);
-}

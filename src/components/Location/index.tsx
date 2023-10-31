@@ -47,7 +47,7 @@ const Location: React.FC<LocationProps> = ({ name, x, y, imageSrc, info }) => {
             className={styles.infoBox}
           >
             <div className={styles.svgCloud}>
-              <p>{info}</p>
+              <p className={styles.infoText}>{info}</p>
             </div>
           </motion.div>
         )}
