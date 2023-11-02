@@ -1,27 +1,62 @@
-# React + TypeScript + Vite
+# Thrilland
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Thrilland, an immersive and interactive web experience crafted to bring excitement and engagement right to your screen. Experience the thrill of our digital park, where every interaction is designed to be smooth, responsive, and delightful.
 
-Currently, two official plugins are available:
+Visit the live project here: [Thrilland Park](https://thrillland-park.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Thrilland](#thrilland)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Technologies Used](#technologies-used)
+  - [Getting Started](#getting-started)
+  - [Features](#features)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Overview
 
-- Configure the top-level `parserOptions` property like this:
+Thrilland is a modern web application developed to showcase the power of animation and interactivity in web design. With a clean, intuitive user interface and smooth animations, users are guaranteed an engaging experience.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Technologies Used
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Language**: TypeScript
+- **Framework**: React (created with Vite)
+- **Animation Library**: Framer Motion
+
+## Getting Started
+
+To run Thrilland on your local machine, follow these steps:
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/Shahfarzane/amusement-park.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd Thrilland
+   ```
+
+3. Install dependencies:
+
+   ```sh
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```sh
+   npm run dev
+   ```
+
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000)
+
+## Features
+
+Thrilland offers a variety of features to enhance user interaction, including:
+
+- Smooth and engaging animations for user interactions
+- A responsive design ensuring a great experience on devices of all sizes
+- Clean, maintainable codebase with a strong focus on performance
